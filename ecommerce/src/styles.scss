@@ -1,15 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
-.header{
-    height:20%;
-    width: 100%;
-    .headercontent{
+header{
+    .headertop{
+        display: flex;
+        justify-content:space-between;
+        width:100%;
+        border-bottom: 1px solid black;
+    
+    .socialmedia ul  {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        gap:15px;
+       
     }
-    .headersetting{
-        display:flex;
-        gap:10px;
+    .socialmedia ul li {
+        text-decoration: none;
+        list-style-type: none;
         align-items: center;
     }
+    .freeshippingcard{
+        align-items: center;
+    }
+    .headeraction{
+        display:flex;
+        gap:15px;
+        align-items: center;
+    }
+}
 }
